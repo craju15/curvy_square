@@ -1,2 +1,106 @@
 # curvy_square
 couple o' curvy squares
+
+
+
+#!/usr/bin/python
+
+import turtle
+
+def step():
+    c = raw_input()
+    return
+
+wn = turtle.Screen()
+
+turtle.penup()
+turtle.setposition(10,0)
+step()
+turtle.pendown()
+turtle.forward(80)
+turtle.right(90)
+step()
+turtle.penup()
+turtle.setposition(80,-10)
+turtle.circle(10,180)
+step()
+turtle.pendown()
+turtle.circle(10,90)
+step()
+turtle.penup()
+turtle.circle(10,90)
+turtle.setposition(100,-10)
+step()
+turtle.pendown()
+
+turtle.forward(80)
+turtle.right(90)
+turtle.penup()
+turtle.setposition(90,-80)
+turtle.circle(10,180)
+turtle.pendown()
+turtle.circle(10,90)
+turtle.penup()
+turtle.circle(10,90)
+turtle.setposition(90,-100)
+turtle.pendown()
+
+turtle.forward(80)
+turtle.right(90)
+turtle.penup()
+turtle.setposition(20,-90)
+turtle.circle(10,180)
+turtle.pendown()
+turtle.circle(10,90)
+turtle.penup()
+turtle.circle(10,90)
+turtle.setposition(0,-90)
+turtle.pendown()
+
+
+turtle.forward(80)
+turtle.penup()
+turtle.setposition(20,-10)
+turtle.circle(10,90)
+turtle.pendown()
+turtle.circle(10,90)
+
+turtle.penup()
+turtle.forward(-120)
+turtle.pendown()
+
+turtle.forward(80)
+turtle.circle(10,90)
+turtle.forward(80)
+turtle.circle(10,90)
+turtle.forward(80)
+turtle.circle(10,90)
+turtle.forward(80)
+turtle.circle(10,90)
+
+
+turtle.penup()
+turtle.forward(-120)
+turtle.pendown()
+
+
+turtle.circle(10,-90)
+turtle.forward(-80)
+turtle.circle(10,-90)
+turtle.forward(-80)
+turtle.circle(10,-90)
+turtle.forward(-80)
+turtle.circle(10,-90)
+turtle.forward(-80)
+
+step()
+
+turtle.penup()
+turtle.setposition(-120,0)
+turtle.pendown()
+
+for i in range(0, 4):
+    turtle.forward(80)
+    turtle.circle(10,90)
+
+turtle.exitonclick()
