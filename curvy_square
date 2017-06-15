@@ -1,5 +1,5 @@
 # curvy_square
-couple o' curvy squares
+# couple o' curvy squares
 
 
 
@@ -8,7 +8,7 @@ couple o' curvy squares
 import turtle
 
 def step():
-    c = raw_input()
+    # c = raw_input()
     return
 
 wn = turtle.Screen()
